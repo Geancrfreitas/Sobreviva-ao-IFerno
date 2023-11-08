@@ -1,0 +1,80 @@
+body
+{
+    align-items: center;
+    display: grid;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+#alinhado
+{
+    background-image: url(../imag/Cursos-IFSP.webp);    
+    display: grid;
+    height: 100vh;
+    width: 100%;
+    grid-template: 80px 10% 300px 10% 100px 10% / 100% ;
+    animation-duration: 5s;
+    background-size: cover; /* Ajusta a imagem para cobrir toda a div */
+    background-position: center; /* Centraliza a imagem na div */
+    background-repeat: no-repeat; /* Evita a repetição da imagem */
+}
+.button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado padrão */
+    border: none; /* Remover borda do botão */
+    border-radius: 5px; /* Cantos arredondados */
+}
+
+#bomdia
+{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    align-self: center;
+    align-items: center;
+    font-size: larger;
+    font-family: Verdana, Tahoma, sans-serif;
+    color: #ffffff;
+    background-color: #1f932440;
+    grid-row: 2 / 2;
+}
+
+#bhutan
+{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    align-self: center;
+    align-items: center;
+    grid-row: 4 / 4;
+    align-self: center;
+}
+#batata
+{
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    align-self: center;
+    align-items: center;
+    grid-row: 6 / 6;
+}
+@keyframes alinhado{
+    0%{
+        filter: brightness(-100vmin);
+        background-image: url(../imag/normalif.webp);
+    }
+    50%{
+        filter: brightness(0vmin);
+
+    }
+    75%{
+
+    }
+    100%{
+
+    }
+}
