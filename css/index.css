@@ -62,19 +62,3 @@ body
     align-items: center;
     grid-row: 6 / 6;
 }
-@keyframes alinhado{
-    0%{
-        filter: brightness(-100vmin);
-        background-image: url(../imag/normalif.webp);
-    }
-    50%{
-        filter: brightness(0vmin);
-
-    }
-    75%{
-
-    }
-    100%{
-
-    }
-}
