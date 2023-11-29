@@ -12,46 +12,17 @@ body
     display: grid;
     height: 100vh;
     width: 100%;
-    grid-template: 80px 10% 300px 10% 100px 10% / 100% ;
+    grid-template: 10% 80% / 10vh 15vh 10vh 10vh 10vh 10vh 10vh 10vh;
     animation: knowif 2s;
     background-size: cover; /* Ajusta a imagem para cobrir toda a div */
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat; /* Evita a repetição da imagem */
 }
-#bomdia
-{
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    font-size: larger;
-    font-family: Verdana, Tahoma, sans-serif;
-    color: #ffffff;
-    background-color: #1f932440;
-    grid-row: 2 / 2;
+#banne{
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+    background-color: #750200bb;
 }
-
-#bhutan
-{
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    grid-row: 4 / 4;
-    align-self: center;
-}
-#batata
-{
-    justify-content: center;
-    text-align: center;
-    width: auto;
-    align-self: center;
-    align-items: center;
-    grid-row: 6 / 6;
-}
-
 @keyframes knowif{
     0%{
         filter: brightness(-100vmin);
