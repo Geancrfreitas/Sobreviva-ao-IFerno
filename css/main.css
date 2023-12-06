@@ -6,6 +6,10 @@ body
     margin: 0px;
     padding: 0px;
 }
+h1{
+    -webkit-text-stroke: 3px #AF0804;
+    font-size: 50px;
+}
 #alinhado
 {
     background-image: url(../imag/normalif.webp);    
@@ -27,6 +31,8 @@ body
     background-position: center; /* Centraliza a imagem na div */
     background-repeat: no-repeat;
     border: 3px solid #1f9324; /* Ajuste a cor conforme necessário */
+    
+    background-color: #1f932490;
 }
 #baner{
     grid-column: 2 / 3;
@@ -41,7 +47,8 @@ body
     background-position: center;
     text-align: center;
     padding: 20px;
-    color: #cb0804;
+    color: #dc0804;
+    vertical-align: text-top;
 }
 #menu{
     grid-column: 1 / 2;
@@ -49,6 +56,7 @@ body
 
     border: 3px solid #cb080440; /* Ajuste a cor conforme necessário */
     padding: 10px;
+    background-color:  #75020090;
 
     text-align: center;
 }
@@ -59,8 +67,10 @@ body
     border: 3px solid #1f9324; /* Ajuste a cor conforme necessário */
     padding: 10px;
 
+    background-color: #1f932490;
+
     text-align: center;
-    color: #fff;
+    color: #dc0804;
 }
 #tr1{
     grid-column: 2 / 3;
@@ -68,6 +78,8 @@ body
 
     border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
     padding: 10px;
+    
+    background-color: #AF080480;
 
     text-align: center;
     padding: 10px;
@@ -80,6 +92,8 @@ body
     border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
     padding: 10px;
 
+    background-color: #AF080480;
+
     text-align: center;
     padding: 10px;
     color: #fff;
@@ -90,6 +104,8 @@ body
 
     border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
     padding: 10px;
+    
+    background-color: #AF080480;
 
     text-align: center;
     padding: 10px;
@@ -101,6 +117,8 @@ body
 
     border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
     padding: 10px;
+    
+    background-color: #AF080480;
 
     text-align: center;
     padding: 10px;
@@ -112,10 +130,22 @@ body
 
     border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
     padding: 10px;
+    
+    background-color: #AF0804a0;
 
     text-align: center;
     padding: 10px;
     color: #fff;
+}
+.button
+{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    text-decoration: none; /* Remover sublinhado padrão */
+    border: none; /* Remover borda do botão */
+    border-radius: 5px; /* Cantos arredondados */
 }
 
 @keyframes knowif{
