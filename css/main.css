@@ -21,48 +21,101 @@ body
 #logo{
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    background-color: #750200bb;
+
+    background-image: url(../imag/Logo-IF-Inferni.png);
+    background-size: contain; /* Ou ajuste para 'cover' ou outro valor conforme necessário */
+    background-position: center; /* Centraliza a imagem na div */
+    background-repeat: no-repeat;
+    border: 3px solid #1f9324; /* Ajuste a cor conforme necessário */
 }
 #baner{
     grid-column: 2 / 3;
     grid-row: 1 / 1;
     background-color: #758880bb;
+
+    border: 3px solid #cb080440; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    background-image: url(../imag/DantesInfernoBanner.jpg); /* Substitua pela URL da imagem desejada */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px;
+    color: #cb0804;
 }
 #menu{
     grid-column: 1 / 2;
     grid-row: 2 / 8;
-    background-color: #444200bb;
+
+    border: 3px solid #cb080440; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
 }
 #tr0{
     grid-column: 2 / 3;
     grid-row: 2 / 2;
-    background-color: #4200bb;
+
+    border: 3px solid #1f9324; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    color: #fff;
 }
 #tr1{
     grid-column: 2 / 3;
     grid-row: 3 / 3;
-    background-color: #757700bb;
+
+    border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 #tr2{
     grid-column: 2 / 3;
     grid-row: 4 / 4;
-    background-color: #750770bb;
+
+    border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 #tr3{
     grid-column: 2 / 3;
     grid-row: 5 / 5;
-    background-color: #722590bb;
+
+    border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 #tr4{
     grid-column: 2 / 3;
     grid-row: 6 / 6;
-    background-color: #111200bb;
+
+    border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 #rodape{
     grid-column: 2 / 3;
     grid-row: 7 / 7;
-    background-color: #750178bb;
 
+    border: 3px solid #AF0804; /* Ajuste a cor conforme necessário */
+    padding: 10px;
+
+    text-align: center;
+    padding: 10px;
+    color: #fff;
 }
 
 @keyframes knowif{
